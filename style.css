@@ -1,3 +1,9 @@
+.navbar{
+    margin-top: 20px;
+}
+.container{
+    margin-bottom:100px ;
+}
 .carousel-bg{
     background-color: #fceaeb;
     border-radius: 10px;
@@ -15,4 +21,23 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: poter;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to right, rgb(252, 174, 6) 0%,rgb(255, 123, 0) 100%);
+}
+.cat2{
+    background-image: linear-gradient(to right, rgb(247, 8, 128),rgb(214, 7, 111));
+}
+.cat3{
+    background-image: linear-gradient(to right, rgb(89, 89, 201), rgb(5, 5, 197));
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
 }
