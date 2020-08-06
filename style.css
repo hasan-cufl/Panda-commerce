@@ -4,7 +4,7 @@
 .container{
     margin-bottom:100px ;
 }
-.carousel-bg{
+.container-bg{
     background-color: #fceaeb;
     border-radius: 10px;
 }
@@ -30,7 +30,7 @@
     background-image: linear-gradient(to right, rgb(252, 174, 6) 0%,rgb(255, 123, 0) 100%);
 }
 .cat2{
-    background-image: linear-gradient(to right, rgb(247, 8, 128),rgb(214, 7, 111));
+    background-image: linear-gradient(to right, rgb(247, 8, 128),rgb(248, 3, 126));
 }
 .cat3{
     background-image: linear-gradient(to right, rgb(89, 89, 201), rgb(5, 5, 197));
@@ -40,4 +40,25 @@
 }
 .categories img{
     width: 100px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 13px lightgray;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: slategrey;
+}
+#subscribe .buy-now-button{
+    margin-top: 8px;
+}
+footer{
+    text-align: center;
 }
